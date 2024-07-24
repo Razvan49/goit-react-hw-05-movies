@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/60.d6c017b4.chunk.css","mappings":"AAAA,qCAEE,aAAc,CADd,WAEF","sources":["components/pages-components/MovieReviewsInfo/MovieReviewsInfo.module.css"],"sourcesContent":[".reviewImage {\n  width: 250px;\n  max-width: 60%;\n}"],"names":[],"sourceRoot":""}
