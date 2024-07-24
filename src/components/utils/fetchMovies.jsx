@@ -20,8 +20,7 @@ export const useFetchMovies = url => {
       }
     };
     fetchMovies();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [url]);
 
   return { isLoading, isError, data };
 };

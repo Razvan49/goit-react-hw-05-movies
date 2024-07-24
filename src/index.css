@@ -44,3 +44,19 @@ code {
   align-items: center;
   justify-content: center;
 }
+.movies-list {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.movie-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.movie-item img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}

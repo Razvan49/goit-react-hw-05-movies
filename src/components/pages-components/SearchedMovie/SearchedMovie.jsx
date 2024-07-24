@@ -3,8 +3,8 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useSearchParams } from 'react-router-dom';
 import Loading from '../Loading/Loading';
-import ErrorPage from '../Error';
-import NoResultFound from '../NoResultFound';
+import ErrorPage from '../Error/Error';
+import NoResultFound from '../Error/NoResultFound';
 
 const SearchedMovie = () => {
   const [searchParams] = useSearchParams();

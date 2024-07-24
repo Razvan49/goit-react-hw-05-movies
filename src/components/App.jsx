@@ -1,11 +1,11 @@
 import Home from 'pages/Home';
 import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import SharedLayout from './pages-components/shared-layout/SharedLayout';
+import SharedLayout from './pages-components/SharedLayout/SharedLayout';
 import Movies from '../pages/Movies';
-import ErrorPage from './pages-components/Error';
+import ErrorPage from './pages-components/Error/Error';
 const MoviesInfo = lazy(() =>
-  import('./pages-components/movie-info/MoviesInfo')
+  import('./pages-components/MovieInfo/MoviesInfo')
 );
 const MovieCastInfo = lazy(() =>
   import('./pages-components/MovieCastInfo/MovieCastInfo')

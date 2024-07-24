@@ -1,10 +1,10 @@
 import { useParams } from 'react-router-dom';
 import { API_KEY, BASE_URL } from 'components/utils/utils';
 import { useFetchMovies } from 'components/utils/fetchMovies';
-import avatarImg from '../MovieCastInfo/avatartImage.png';
+import avatarImg from '../../../images/avatartImage.png';
 import style from './MovieReviewsInfo.module.css';
 import Loading from '../Loading/Loading';
-import ErrorPage from '../Error';
+import ErrorPage from '../Error/Error';
 import { Empty } from 'antd';
 
 const MovieReviewsInfo = () => {
