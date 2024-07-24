@@ -1,0 +1,31 @@
+.movieCastList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.movieCastItem {
+  width: 250px;
+  max-width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movieCastItem:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  scale: 1.01;
+}
+
+.castImage {
+  width: 100%;
+}
+
+.castName {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
